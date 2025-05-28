@@ -1,0 +1,19 @@
+# Hướng dẫn cài đặt và chạy dự án Emotion Classifier
+
+1. Cài đặt Python và FastAPI:
+   - Cài đặt Python từ https://www.python.org/downloads/
+   - Tạo môi trường ảo và cài đặt các thư viện cần thiết:
+     python -m venv venv
+     source venv/bin/activate   # Trên Mac/Linux
+     venv\Scripts\activate      # Trên Windows
+     -pip install fastapi uvicorn
+
+
+2. Chạy API:
+   - Chạy API với lệnh sau trên terminal:
+     uvicorn main:app --reload
+
+3. Mở file `index.html` trong trình duyệt:
+   - Mở file `index.html` từ thư mục giao diện của bạn.
+
+4. Nhập câu và xem kết quả phân loại cảm xúc.
